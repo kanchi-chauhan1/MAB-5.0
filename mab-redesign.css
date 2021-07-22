@@ -43,3 +43,10 @@ span.custom-message-bold {
         margin:23px 0px;
     }
 }
+
+@media (max-width:367px){
+    .custom-detail-message {
+        margin:15px 0px;
+        margin-bottom:10px;
+    }
+}
