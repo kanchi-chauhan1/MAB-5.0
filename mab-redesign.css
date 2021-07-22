@@ -1,88 +1,45 @@
-.custom-detail-message {
-  width: 384px;
-  height: 144px;
-  margin: auto;
-  margin-top: 35px;
-  display: flex;
-  justify-content: center;
-  background-color: #F1EEEC;
-  align-items: center;
-  border-radius: 8px;
+.bodyContainer>div h2>span {
+    text-decoration: underline;
 }
 
-.custom-message {
-  padding-left: 24px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  width: 288px;
-  height: 96px;
+.custom-detail-message {
+    margin: 23px 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background: #F1EEEC;
+    border-radius: 8px;
 }
 
 .custom-image {
-  width: 20px;
-  height: 20px;
-  margin: 2px;
-}
-
-span.custom-message-bold {
-  font-weight: 700;
-}
-
-@media (max-width:414px){
-  .custom-detail-message{
-    width: 336px;
-    height:168px;
-  }
-}
-
-/*----------*/
-.custom-detail-message {
-  width: 384px;
-  height: 144px;
-  margin: auto;
-  margin-top: 35px;
-  display: flex;
-  justify-content: center;
-  background-color: #F1EEEC;
-  align-items: center;
-  border-radius: 8px;
+    margin-left: 2px;
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
 }
 
 .custom-message {
-  padding-left: 24px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  width: 288px;
-  height: 96px;
-}
-
-.custom-image {
-  width: 20px;
-  height: 20px;
-  margin: 2px;
-}
-
-span.custom-message-bold {
-  font-weight: 700;
-}
-
-@media (max-width:414px){
-  .custom-detail-message{
-    width: 336px;
-    height:168px;
-  }
-  .custom-message {
-    width: 240px;
-    height: 120px;
-    padding-left: 26px;
+    margin-left: 24px;
+    color: #3D2C3E;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-  }
 }
 
+span.custom-message-bold {
+    font-weight: 700;
+}
+
+@media (max-width:768px){
+    .custom-detail-message {
+        margin:23px 176px;
+    }
+}
+
+@media (max-width:767px){
+    .custom-detail-message {
+        margin:23px 0px;
+    }
+}
